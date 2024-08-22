@@ -1,0 +1,14 @@
+spring:
+
+  application:
+    name: Search
+
+elasticsearch:
+
+  conn: localhost
+  port: 9200
+
+  usernameSearch:
+
+    index: usernames
+    id: _id
